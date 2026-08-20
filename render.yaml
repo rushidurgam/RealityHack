@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: skillbridge-ai-backend
+    runtime: python
+    region: singapore   # closest to India; change to oregon / frankfurt as needed
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: DATABASE_URL
+        sync: false          # Set this manually in Render dashboard → paste Supabase URL
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ADZUNA_APP_ID
+        sync: false
+      - key: ADZUNA_APP_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false          # Set to your Vercel URL after deploy, e.g. https://realityhack.vercel.app
+      - key: ENABLE_RATE_LIMITING
+        value: "true"
+      - key: ENABLE_SECURITY_HEADERS
+        value: "true"
+      - key: MAX_UPLOAD_BYTES
+        value: "5242880"

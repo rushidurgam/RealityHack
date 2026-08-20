@@ -26,8 +26,13 @@ class Settings(BaseSettings):
     # Database
     database_url: str = "sqlite:///./skillbridge.db"
 
-    # CORS & Network
-    cors_origins: str = "http://127.0.0.1:5173,http://localhost:5173,http://127.0.0.1:8000,http://localhost:8000"
+    # CORS & Network — include production Vercel URL + localhost for dev
+    cors_origins: str = (
+        "http://127.0.0.1:5173,http://localhost:5173,"
+        "http://127.0.0.1:8000,http://localhost:8000,"
+        "https://reality-hack.vercel.app,"
+        "https://realityhack.vercel.app"
+    )
     
     # Security & Guardrails
     enable_rate_limiting: bool = True
