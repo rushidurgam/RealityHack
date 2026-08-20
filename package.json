@@ -1,0 +1,13 @@
+{
+  "name": "skillbridge-ai",
+  "private": true,
+  "version": "0.3.0",
+  "description": "SkillBridge AI — Real-time Market Telemetry, Dynamic Resume Intelligence & AI Flight Simulator",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
+  },
+  "keywords": ["ai", "fastapi", "react", "gemini", "resume-intelligence"],
+  "license": "MIT"
+}

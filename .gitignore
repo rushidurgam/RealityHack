@@ -1,0 +1,26 @@
+# Secrets — never commit real API keys
+.env
+.env copy.example
+
+# Python bytecode and virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local SQLite database (created on first run)
+*.db
+*.db-shm
+*.db-wal
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
