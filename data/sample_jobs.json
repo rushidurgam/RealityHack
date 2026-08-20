@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Junior Backend Engineer",
+    "company": "Northstar Labs",
+    "description": "Build REST APIs with Python and FastAPI. You will containerize services with Docker, write unit tests, and deploy to a Linux environment. Experience with SQL databases (PostgreSQL or SQLite) and Git is required. Nice to have: Redis, CI/CD with GitHub Actions."
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "BrightPath Software",
+    "description": "Work across React frontends and Node/Python backends. Must be comfortable with REST APIs, TypeScript, and Docker. You will own features end-to-end including authentication, database schemas, and cloud deployment on AWS. Kubernetes experience is a plus."
+  },
+  {
+    "title": "Software Engineer – Platform",
+    "company": "Harbor Cloud",
+    "description": "Help us scale internal developer tools. Required skills: Python, Docker, Kubernetes, and Linux. You will write Terraform, monitor services, and improve CI pipelines. Familiarity with SQLAlchemy or similar ORMs is expected."
+  },
+  {
+    "title": "AI Application Engineer",
+    "company": "LumenForge",
+    "description": "Ship LLM-powered features using Python and the Gemini or OpenAI APIs. You will parse PDFs, design prompts that return structured JSON, and wrap models behind FastAPI endpoints. Docker and basic frontend (React) experience preferred."
+  },
+  {
+    "title": "Graduate Software Engineer",
+    "company": "Riverbank Systems",
+    "description": "Entry-level role for students. Stack: Python, Git, SQL, and REST. Training includes Docker workshops and pair-programming on microservices. Strong problem-solving and communication skills matter more than years of experience."
+  },
+  {
+    "title": "IoT & Embedded Systems Engineer",
+    "company": "Nexus Edge Technologies",
+    "description": "Design firmware and IoT connectivity layers for industrial sensor networks. You must have strong Embedded C/C++ skills and real-world MQTT pub/sub protocol experience. FreeRTOS task scheduling, I2C/SPI peripheral drivers, and ESP32 or ARM Cortex-M familiarity required. Experience with edge computing, TinyML, and Raspberry Pi data pipelines is a strong plus."
+  },
+  {
+    "title": "Firmware Engineer – IoT Platform",
+    "company": "Veridian Devices",
+    "description": "Build production-grade firmware for IoT hardware. Responsibilities include real-time task scheduling with FreeRTOS, sensor data acquisition via I2C and SPI, and publishing telemetry to cloud brokers using MQTT. Must be comfortable with volatile registers, interrupt service routines, and low-power embedded C programming."
+  },
+  {
+    "title": "Embedded Software Developer",
+    "company": "Atlas Automation",
+    "description": "Join our embedded systems team to develop firmware for edge devices. Key skills: C/C++ for bare-metal and RTOS platforms, MQTT for telemetry, hardware debugging (JTAG/SWD), and OTA update pipelines. Familiarity with Zephyr RTOS or FreeRTOS required. Python scripting for test automation is a plus."
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "CoreFlow Systems",
+    "description": "Automate and scale our infrastructure. Must have deep Docker and Kubernetes expertise. You will write CI/CD pipelines with GitHub Actions, manage cloud infrastructure on AWS with Terraform, and implement monitoring with Prometheus and Grafana. Linux systems administration and shell scripting required."
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "company": "Aether Cloud",
+    "description": "Improve reliability and performance of our distributed backend. Required: Kubernetes, Docker, CI/CD automation, Terraform, and strong Linux fundamentals. You will build runbooks, reduce toil, and implement SLO-based alerting. PostgreSQL tuning and Redis caching knowledge appreciated."
+  },
+  {
+    "title": "Frontend Engineer",
+    "company": "Prism UI Labs",
+    "description": "Build elegant, performant React applications. Strong TypeScript skills required. You will write unit tests with Jest and React Testing Library, integrate REST APIs, and manage Git workflows with branching strategies. Experience with Vite, performance optimization, and accessibility (WCAG) preferred."
+  },
+  {
+    "title": "ML Engineer",
+    "company": "Synthesize AI",
+    "description": "Build and deploy machine learning pipelines. Strong Python skills required with PyTorch or TensorFlow for model training. You will manage datasets with Pandas and NumPy, write training scripts, and deploy models using FastAPI. Experience with MLflow, CUDA, and LLM fine-tuning is a strong plus."
+  }
+]
